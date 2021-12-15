@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 8</title>
+</head>
+<body>
+
+<!--Bài 8: Kiểm tra xem một số nhập vào có phải là tuổi của một người không. Một số nguyên là tuổi của một người khi nhỏ 120 và lơn hơn 0.-->
+
+<script>
+    let age = prompt('Nhập số: ');
+
+    // console.log(age);
+    // console.log(isNaN(age)? 'Not a number' : 'A number');
+    // console.log((age > 120 || age <=0)? 'Out of range' : 'In range');
+
+    let message = (isNaN(age)|| age > 120 || age <=0 )?
+        'Số nhập vào không phải là tuổi con người.' :
+        'Số nhập vào là tuổi con người.';
+    alert(message);
+</script>
+
+
+</body>
+</html>

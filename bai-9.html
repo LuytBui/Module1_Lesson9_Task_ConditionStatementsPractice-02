@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 9</title>
+</head>
+<body>
+<script>
+    let a = prompt('Nhập cạnh a:');
+    let b = prompt('Nhập cạnh b:');
+    let c = prompt('Nhập cạnh c:');
+    let isTriangle;
+
+    if (a > b + c && b > c+ a && c > a + b) {
+        isTriangle = true;
+    }
+    let message = isTriangle? 'a, b, c là 3 cạnh của tam giác.'
+        : 'a, b, c không phải là 3 cạnh của tam giác.';
+    alert(message);
+
+</script>
+</body>
+</html>
